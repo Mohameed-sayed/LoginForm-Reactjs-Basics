@@ -1,0 +1,39 @@
+.login-form{
+    margin: 0px;
+
+    .input-wrapper{
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+
+    label{
+        margin-bottom: 5px;
+        color: white;
+        text-align:left;
+    }
+
+    input{
+        padding: 12px 10px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        background-color: none;
+        border: 3px solid transparent;
+        background-color: rgb(80, 79, 79);
+    
+    
+        &:focus{
+            border: 3px solid #bf4080;
+        }
+    }
+    
+}
+.btn{
+        color: white;
+        width: 15%;
+        height: 15%;
+        padding: 0.6em 1.2em;
+    
+    }
+}
+

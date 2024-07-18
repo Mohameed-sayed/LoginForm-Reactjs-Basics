@@ -1,0 +1,26 @@
+    .navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #bf4080;
+
+    li {
+        border-bottom: 2px solid white;
+        font-size: 14;
+        color: white;
+
+        &:hover {
+        a {
+            color: aquamarine;
+        }
+        }
+        a {
+        text-decoration: none;
+        color: white;
+        }
+    }
+    }
